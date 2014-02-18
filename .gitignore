@@ -133,6 +133,8 @@ csx/
 
 # Windows Store app package directory
 AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
 
 # Others
 sql/

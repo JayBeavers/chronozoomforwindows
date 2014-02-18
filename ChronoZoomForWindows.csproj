@@ -14,7 +14,10 @@
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>ChronoZoomWebControl_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>ChronoZoomForWindows_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>7842902787D5B318C1B640431824D96EFEE4CBDA</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -121,13 +124,22 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="ChronoZoomForWindows_StoreKey.pfx" />
     <None Include="ChronoZoomWebControl_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Store Catalog Images\Picturing The Universe %28Large%29.png" />
+    <Content Include="Store Catalog Images\Promotional414.png" />
+    <Content Include="Store Catalog Images\Promotional558.png" />
+    <Content Include="Store Catalog Images\Screenshot %28Large%29.png" />
+    <Content Include="Store Catalog Images\Welcome %28Large%29.png" />
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
